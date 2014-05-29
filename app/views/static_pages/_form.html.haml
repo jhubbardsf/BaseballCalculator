@@ -1,0 +1,10 @@
+= form_tag('/upload', multipart: true, role: "form", id: 'upload-form', remote: true) do
+  .form-group
+    = label_tag(:batting_file, "Batting Stat File: ")
+    = file_field_tag 'batting_file'
+    %p.help-block Select the CSV file with the batting information.
+  .form-group
+    = label_tag(:batting_file, "Master Stat File: ")
+    = file_field_tag 'master_file'
+    %p.help-block Select the CSV file with the master information.
+  = submit_tag "Upload and Show Stats", class: "center btn btn-default", id: "form-submit"
