@@ -1,3 +1,3 @@
 == README
 
-Very simple calculator for the Onlife Health baseball project. Simply clone the repository. If using RVM, install Ruby 2.0.0 and create a gemset for the project. Run a bundle install and afterwards you should be able to start up the server locally. The front page has a GUI which will ask for the batting/master CSV files and once it's done calculating it'll display the results along with logging to STDOUT.
+Very simple baseball stat calculator. Simply clone the repository. If using RVM, install Ruby 2.0.0 and create a gemset for the project. Run a bundle install and afterwards you should be able to start up the server locally. The front page has a GUI which will ask for the batting/master CSV files and once it's done calculating it'll display the results along with logging to STDOUT.
